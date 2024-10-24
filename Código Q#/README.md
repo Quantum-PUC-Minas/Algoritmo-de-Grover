@@ -11,11 +11,11 @@ Exemplo.qs
 #### 3. Cole o código, se a extensão estiver corretamente instalada devem aparecer as seguintes opções no @EntryPoint
 ![image](https://github.com/user-attachments/assets/3505a984-b091-4cab-b8ff-75be2540fc88)
 
-## Execução
+## Opção Run
 Foi encontrado o estado |101> no conjunto sobreposto de 8 estados possíveis em apenas uma iteração
 ![image](https://github.com/user-attachments/assets/548036ed-7dad-405d-a055-7ef2d0b8bc7d)
 
-## Circuito
+## Opção Circuit
 Cada iteração (loop de código) é realizada após com a combinação de um oráculo comum e um aplificador (que contem um oráculo de fase) ao final de todas iterações iremos realizar uma medição em cada qubit
 
 ### oráculos de 3 qubits marcando |000>
