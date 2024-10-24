@@ -12,7 +12,7 @@ Exemplo.qs
 ![image](https://github.com/user-attachments/assets/3505a984-b091-4cab-b8ff-75be2540fc88)
 
 
-# Circuito
+## Circuito
 ![image](https://github.com/user-attachments/assets/620f0745-c9c1-47b3-ad8e-91f78d171bbe)
 
 # Defina o estado marcado
@@ -38,7 +38,7 @@ operation ReflectAboutMarked(inputQubits : Qubit[]) : Unit {
 }
 ```
 
-# Defina o número de iterações ideais
+## Defina o número de iterações ideais
 A pesquisa de Grover tem um número ideal de iterações que produz a maior probabilidade de medir uma saída válida. Se o problema tiver N = 2^n possíveis itens elegíveis, e M deles são soluções para o problema, o número ideal de iterações é:
 ```qsharp
 function CalculateOptimalIterations(nQubits : Int) : Int {
@@ -51,7 +51,7 @@ function CalculateOptimalIterations(nQubits : Int) : Int {
     return iterations;
 }
 ```
-# Defina a operação do Grover
+## Defina a operação do Grover
 A operação Q# para o algoritmo de pesquisa de Grover tem três entradas:
 - O número de qubits, nQubits: Int, no registro de qubit. Este registrador codificará a solução provisória para o problema de pesquisa. Após a operação, será medido.
 - O número de iterações ideais, iterações: Int.
@@ -104,7 +104,7 @@ operation ReflectAboutUniform(inputQubits : Qubit[]) : Unit {
     }
 }
 ```
-# Execute o código final
+## Execute o código final
 Agora você tem todos os ingredientes para implementar uma instância específica do algoritmo de busca de Grover e resolver o problema de fatoração. Para finalizar, a operação Main configura o problema especificando o número de qubits e o número de iterações
 ```qsharp
 operation Main() : Result[] {
