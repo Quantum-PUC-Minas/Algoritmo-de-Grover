@@ -58,3 +58,36 @@ operation GroverSearch( nQubits : Int, iterations : Int, phaseOracle : Qubit[] =
     return MResetEachZ(qubits);
 }
 ```
+A operação GroverSearch inicializa um registro de n qubits no estado |0>, prepara o registro em uma superposição uniforme e então aplica o algoritmo de Grover para o número especificado de iterações. A pesquisa em si consiste em refletir repetidamente sobre o estado marcado e o estado inicial, que você pode escrever em Q# como um loop for. Por fim, mede o registrador e retorna o resultado.
+
+O código faz uso de três operações auxiliares: PrepareUniform, ReflectAboutUniform e ReflectAboutAllOnes.
+
+Dado um registro no estado totalmente zero, a operação PrepareUniform prepara uma superposição uniforme sobre todos os estados básicos.
+```qsharp
+operation PrepareUniform(inputQubits : Qubit[]) : Unit is Adj + Ctl {
+    for q in inputQubits {
+        H(q);
+    }
+}
+```
+
+A operação ``ReflectAboutAllOnes` reflete sobre o estado de todos.
+```qsharp
+operation ReflectAboutAllOnes(inputQubits : Qubit[]) : Unit {
+    Controlled Z(Most(inputQubits), Tail(inputQubits));
+}
+```
+A operação ReflectAboutUniform reflete sobre o estado de superposição uniforme. Primeiro, transforma a superposição uniforme em zero. Em seguida, ele transforma o estado totalmente zero em todos uns. Por fim, reflete sobre o estado de todos. A operação é chamada ReflectAboutUniform porque pode ser interpretada geometricamente como uma reflexão no espaço vetorial sobre o estado de superposição uniforme.
+```qsharp
+operation ReflectAboutUniform(inputQubits : Qubit[]) : Unit {
+    within {
+        Adjoint PrepareUniform(inputQubits);
+        // Transform the all-zero state to all-ones
+        for q in inputQubits {
+            X(q);
+        }
+    } apply {
+        ReflectAboutAllOnes(inputQubits);
+    }
+}
+```
