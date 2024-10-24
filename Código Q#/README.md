@@ -38,3 +38,8 @@ function CalculateOptimalIterations(nQubits : Int) : Int {
     return iterations;
 }
 ```
+# Defina a operação do Grover
+A operação Q# para o algoritmo de pesquisa de Grover tem três entradas:
+- O número de qubits, nQubits: Int, no registro de qubit. Este registrador codificará a solução provisória para o problema de pesquisa. Após a operação, será medido.
+- O número de iterações ideais, iterações: Int.
+- Uma operação, phaseOracle : Qubit[] => Unit) : Result[], que representa o oráculo de fase para a tarefa de Grover. Esta operação aplica uma transformação unitária em um registro qubit genérico.
