@@ -13,8 +13,7 @@ Exemplo.qs
 
 
 # Circuito
-![Captura de tela 2024-10-24 183554](https://github.com/user-attachments/assets/7c4b8bca-ae38-45d5-842f-0924fe8fdb6c)
-
+![image](https://github.com/user-attachments/assets/620f0745-c9c1-47b3-ad8e-91f78d171bbe)
 
 # Defina o estado marcado
 Primeiro, você define qual entrada está tentando encontrar na pesquisa. Para fazer isso, escreva uma operação que aplique as etapas b, c e d do algoritmo de Grover.
