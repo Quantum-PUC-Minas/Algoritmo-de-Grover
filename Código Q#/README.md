@@ -19,8 +19,7 @@ Foi encontrado o estado |01> no conjunto sobreposto de 4 estados possíveis em a
 ## Opção Circuit
 Cada iteração (loop de código) é realizada após com a combinação de um oráculo comum e um aplificador (que contem um oráculo de fase) ao final de todas iterações iremos realizar uma medição em cada qubit
 
-### oráculos de 3 qubits marcando |000>
-![image](https://github.com/user-attachments/assets/bdf1a259-881d-4a64-9092-af5e8f4be82d)
+![image](https://github.com/user-attachments/assets/c40e908f-3697-431f-ac4b-dc1510d148c2)
 
 ### neste caso iremos mudar a configuração do oráculo, que será de 2 qubits marcando |01>
 ![image](https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c)
