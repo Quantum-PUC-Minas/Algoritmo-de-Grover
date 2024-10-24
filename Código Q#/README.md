@@ -1,4 +1,5 @@
-
+Circuito
+![Captura de tela 2024-10-24 183554](https://github.com/user-attachments/assets/7c4b8bca-ae38-45d5-842f-0924fe8fdb6c)
 
 
 # Defina o estado marcado
