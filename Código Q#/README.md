@@ -13,7 +13,7 @@ Exemplo.qs
 
 
 ## Circuito
-Cada iteração (loop de código) é realizada após com a combinação de um oráculo comum e um aplificador (que contem um oráculo condicional, ou oráculo , ao final de todas iterações iremos realizar uma medição em cada qubit
+Cada iteração (loop de código) é realizada após com a combinação de um oráculo comum e um aplificador (que contem um oráculo de fase) ao final de todas iterações iremos realizar uma medição em cada qubit
 
 ![image](https://github.com/user-attachments/assets/bdf1a259-881d-4a64-9092-af5e8f4be82d)
 
