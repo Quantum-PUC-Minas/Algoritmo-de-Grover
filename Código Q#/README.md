@@ -6,10 +6,10 @@ Exemplo.qs
 ```
 3. ### Cole o código, se a extensão estiver corretamente instalada devem aparecer as seguintes opções
 ![image](https://github.com/user-attachments/assets/866a3306-4d80-4665-9d4a-ee5c38ca60df)
-    1. ### Rodar o Código
-    2. ###
-    3. ###
-    4. ### Criar o Circuito
+    1. Rodar o Código
+    2.
+    3.
+    4.Criar o Circuito
 
 # Circuito
 ![Captura de tela 2024-10-24 183554](https://github.com/user-attachments/assets/7c4b8bca-ae38-45d5-842f-0924fe8fdb6c)
