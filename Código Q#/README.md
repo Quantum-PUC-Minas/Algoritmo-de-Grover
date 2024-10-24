@@ -12,7 +12,7 @@ Exemplo.qs
 ![image](https://github.com/user-attachments/assets/3505a984-b091-4cab-b8ff-75be2540fc88)
 
 ## Opção Run
-Foi encontrado o estado |101> no conjunto sobreposto de 8 estados possíveis em apenas uma iteração
+Foi encontrado o estado |01> no conjunto sobreposto de 4 estados possíveis em apenas uma iteração
 ![image](https://github.com/user-attachments/assets/548036ed-7dad-405d-a055-7ef2d0b8bc7d)
 
 ## Opção Circuit
