@@ -12,7 +12,9 @@ Exemplo.qs
 ![image](https://github.com/user-attachments/assets/3505a984-b091-4cab-b8ff-75be2540fc88)
 
 
-## Circuito
+### Circuito
+Cada iteração (loop de código) é realizada após uma combinação de um oráculo comum e um aplificador, ao final de todas iterações iremos realizar uma medição em cada qubit
+![image](https://github.com/user-attachments/assets/f70e3a81-b951-4208-8e81-4f5e0f31ec9a)
 ![image](https://github.com/user-attachments/assets/620f0745-c9c1-47b3-ad8e-91f78d171bbe)
 
 ## Defina o estado marcado
