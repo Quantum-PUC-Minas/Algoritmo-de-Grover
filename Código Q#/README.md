@@ -14,7 +14,9 @@ Exemplo.qs
 
 ## Circuito
 Cada iteração (loop de código) é realizada após uma combinação de um oráculo comum e um aplificador, ao final de todas iterações iremos realizar uma medição em cada qubit
+
 ![image](https://github.com/user-attachments/assets/be3e112f-4b15-47cc-8337-ac1cc979e894)
+
 ![image](https://github.com/user-attachments/assets/620f0745-c9c1-47b3-ad8e-91f78d171bbe)
 
 ## Defina o estado marcado
