@@ -1,10 +1,10 @@
 # Como Rodar?
-1. Certifique-se de que a extensão está instalada
-2. Crie um arquivo no seguinte formato
+1. ###Certifique-se de que a extensão está instalada
+2. ###Crie um arquivo no seguinte formato
 ```
 Exemplo.qs 
 ```
-3. Cole o código, se a extensão estiver corretamente instalada devem aparecer as seguintes opções
+3. ###Cole o código, se a extensão estiver corretamente instalada devem aparecer as seguintes opções
 ![image](https://github.com/user-attachments/assets/866a3306-4d80-4665-9d4a-ee5c38ca60df)
     1. Rodar o Código
     2.
