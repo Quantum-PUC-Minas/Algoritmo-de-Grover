@@ -23,7 +23,7 @@ Cada iteração (loop de código) é realizada após com a combinação de um or
 ### Aqui temos um exemplo oráculo booleano e um amplificador (oráculo de fase) marcando o estado |000>
 ![image](https://github.com/user-attachments/assets/c9bec345-8d05-4a80-b326-814a18ebb0fb)
 
-### Neste caso iremos alterar a configuração do circuito do oráculo, que irá marcar o estado |01>
+### Neste caso iremos alterar a configuração do circuito dos oráculos, que irão marcar o estado |01>
 ![image](https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c)
 
 
