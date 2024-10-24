@@ -20,7 +20,7 @@ operation ReflectAboutMarked(inputQubits : Qubit[]) : Unit {
     }
 }
 ```
-```qsharp
+```csharp
 namespace GroversTutorial {
     open Microsoft.Quantum.Convert;
     open Microsoft.Quantum.Math;
