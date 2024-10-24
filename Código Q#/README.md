@@ -13,6 +13,7 @@ Exemplo.qs
 
 ## Opção Run
 Foi encontrado o estado |01> no conjunto sobreposto de 4 estados possíveis em apenas uma iteração
+
 ![image](https://github.com/user-attachments/assets/548036ed-7dad-405d-a055-7ef2d0b8bc7d)
 
 ## Opção Circuit
