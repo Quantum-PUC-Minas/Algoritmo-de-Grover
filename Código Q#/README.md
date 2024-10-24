@@ -1,6 +1,6 @@
 # Como Rodar?
-1. ## Certifique-se de que a extensão está instalada
-2. ## Crie um arquivo no seguinte formato
+1. Certifique-se de que a extensão está instalada
+2. Crie um arquivo no seguinte formato
 ```
 Exemplo.qs 
 ```
