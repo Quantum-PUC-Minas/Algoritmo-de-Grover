@@ -17,8 +17,7 @@ Cada iteração (loop de código) é realizada após uma combinação de um orá
 
 ![image](https://github.com/user-attachments/assets/bdf1a259-881d-4a64-9092-af5e8f4be82d)
 
-![image](https://github.com/user-attachments/assets/83ac832a-0ab1-4bcb-a2af-31bbad213485)
-
+![image](https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c)
 
 
 ## Defina o estado marcado
