@@ -1,6 +1,7 @@
 # Como Rodar?
 #### 1. Certifique-se de que a extensão está instalada
-![image](https://github.com/user-attachments/assets/e643830d-b80e-4d6e-b569-09dc8f14296d)
+![image](https://github.com/user-attachments/assets/a7994bca-1214-43ea-a6c0-b4ab3f175c2d)
+
 
 #### 2. Crie um arquivo no seguinte formato
 ```
