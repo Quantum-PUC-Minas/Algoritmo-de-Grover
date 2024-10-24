@@ -91,3 +91,16 @@ operation ReflectAboutUniform(inputQubits : Qubit[]) : Unit {
     }
 }
 ```
+# Execute o código final
+Agora você tem todos os ingredientes para implementar uma instância específica do algoritmo de busca de Grover e resolver o problema de fatoração. Para finalizar, a operação Main configura o problema especificando o número de qubits e o número de iterações
+```qsharp
+operation Main() : Result[] {
+let nQubits = 5;
+let iterations = CalculateOptimalIterations(nQubits);
+Message($"Number of iterations: {iterations}");
+
+// Use Grover's algorithm to find a particular marked state.
+let results = GroverSearch(nQubits, iterations, ReflectAboutMarked);
+return results;
+}
+```
