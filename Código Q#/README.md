@@ -1,4 +1,4 @@
-# Como Rodar?
+## Como Rodar?
 #### 1. Certifique-se de que a extensão está instalada no VSCode
 ![image](https://github.com/user-attachments/assets/e5cfef0f-5c9f-4f63-9f1a-df0e2ecfa8b8)
 
@@ -15,7 +15,7 @@ Exemplo.qs
 ## Circuito
 ![image](https://github.com/user-attachments/assets/620f0745-c9c1-47b3-ad8e-91f78d171bbe)
 
-# Defina o estado marcado
+## Defina o estado marcado
 Primeiro, você define qual entrada está tentando encontrar na pesquisa. Para fazer isso, escreva uma operação que aplique as etapas b, c e d do algoritmo de Grover.
 ```qsharp
 operation ReflectAboutMarked(inputQubits : Qubit[]) : Unit {
