@@ -24,7 +24,9 @@ Foi encontrado o estado |01> no conjunto sobreposto de 4 estados possíveis em a
 ![image](https://github.com/user-attachments/assets/c9bec345-8d05-4a80-b326-814a18ebb0fb)
 
 #### Neste caso iremos alterar a configuração do circuito dos oráculos, que irão marcar o estado |01>
+<img src="https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c" style="width:500px; height:auto;">
 ![image](https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c)
+<img src="https://github.com/user-attachments/assets/43bb5b24-d067-4c1c-8f00-5f9c15f43d8e" style="width:500px; height:auto;">
 ![image](https://github.com/user-attachments/assets/43bb5b24-d067-4c1c-8f00-5f9c15f43d8e)
 
 ## Defina o estado marcado
