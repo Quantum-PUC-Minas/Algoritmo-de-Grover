@@ -1,5 +1,9 @@
 # -Algoritmo-de-Grover
-## Estudando Algoritmo de Grover
+
+## Instruções
+Instruções presentes na pasta de cada framework
+
+## Sobre
 Idealizado por Lov Grover em 1996, o algoritmo de Grover, também conhecido como algoritmo de busca quântica, é um algoritmo para busca não ordenada/estruturada, no qual recebemos um conjunto de N elementos e queremos encontrar valores M.
 
 O algoritmo de Grover é uma ferramenta poderosa que pode ser usada para resolver uma variedade de problemas. Por exemplo, pode ser usado para: 
