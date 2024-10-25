@@ -16,9 +16,11 @@ Foi encontrado o estado |01> no conjunto sobreposto de 4 estados possíveis em a
 
 ![image](https://github.com/user-attachments/assets/548036ed-7dad-405d-a055-7ef2d0b8bc7d)
 
-## Opção Circuit
+## Circuito
 #### Cada iteração (loop de código) é realizada após com a combinação de um oráculo comum e um aplificador (que contem um oráculo de fase) ao final de todas iterações iremos realizar uma medição em cada qubit
 ![image](https://github.com/user-attachments/assets/c40e908f-3697-431f-ac4b-dc1510d148c2)
+
+### Após clicar em circuit teremos um circuito assim
 <img src="https://github.com/user-attachments/assets/e8ca433d-3dc1-44a6-a12c-46f34a7f590c" style="width:700px; height:auto;">
 
 ## Defina o estado marcado
@@ -114,7 +116,7 @@ operation ReflectAboutUniform(inputQubits : Qubit[]) : Unit {
 Agora você tem todos os ingredientes para implementar uma instância específica do algoritmo de busca de Grover e resolver o problema de fatoração. Para finalizar, a operação Main configura o problema especificando o número de qubits e o número de iterações
 ```qsharp
 operation Main() : Result[] {
-let nQubits = 5;
+let nQubits = 2;
 let iterations = CalculateOptimalIterations(nQubits);
 Message($"Number of iterations: {iterations}");
 
