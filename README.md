@@ -1,4 +1,4 @@
-# -Algoritmo-de-Grover
+# Algoritmo de Grover
 
 ## Instruções
 Instruções presentes na pasta de cada framework
