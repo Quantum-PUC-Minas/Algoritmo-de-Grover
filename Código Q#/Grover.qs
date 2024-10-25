@@ -7,7 +7,7 @@ namespace GroversTutorial {
 
     @EntryPoint()
     operation Main() : Result[] {
-    let nQubits = 5;
+    let nQubits = 2;
     let iterations = CalculateOptimalIterations(nQubits);
     Message($"Number of iterations: {iterations}");
 
