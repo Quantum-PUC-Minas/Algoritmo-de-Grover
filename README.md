@@ -9,6 +9,3 @@ O algoritmo de Grover é uma ferramenta poderosa que pode ser usada para resolve
 - Resolver problemas de otimização
 
 À medida que os computadores quânticos se tornam mais poderosos, o algoritmo de Grover se tornará cada vez mais importante.
-
-## Instruções
-Instruções presentes na pasta de cada framework
